@@ -12,7 +12,7 @@ Feature: all user registration related scenarios
   Scenario: to test the functionality of submit button on user enquiry page
     Given I am on user enquiry page
     When I Enter below data for equiry
-      | Amol Ujagare | amol@gmail.com | 67676776 | Pune | this is an enquiry |  |
+      | Amol Ujagarea | amol@gmail.com | 67676776 | Pune | this is an enquiry |  |
     And I click on submit button of enquiry
     Then enquiry should be submitted
 
