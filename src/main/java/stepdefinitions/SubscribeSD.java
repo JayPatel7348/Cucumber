@@ -24,8 +24,8 @@ public class SubscribeSD {
         System.out.println("User should be subscribed");
     }
 
-    @When ("I Enter data (.+) , (.+) , (.+)")
-    public void IEnterData(String name,String email,String contact) {
+    @When ("I Enter data (.+) , (.+) , {int}")
+    public void IEnterData(String name,String email,Integer contact) {
 
         System.out.println("name="+name);
         System.out.println("email="+email);
